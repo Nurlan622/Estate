@@ -1,0 +1,73 @@
+#navbar {
+    background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg.webp);
+    height: 100vh;
+    .con{
+        width: 100%;
+    }
+    .container-lg {
+        .navbar {
+            display: flex;
+            align-items: center;
+            height: 200px;
+            .logo {
+                width: 100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                a {
+                    text-align: center;
+                    text-decoration: none;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    img{
+                        width: 100px;
+                    }
+                }
+            }
+
+            ul {
+                display: flex;
+
+                li {
+                    list-style: none;
+                    padding: 10px;
+                    a {
+                        font-size: 15px;
+                        text-decoration: none;
+                        color: white;
+                        text-transform: uppercase;
+
+                        &:hover {
+                            color: #fd784f;
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+
+            .contact {
+                width: 250px;
+                background-color: #fd784f;
+                text-align: center;
+                padding: 10px;
+                span {
+                    color: white;
+                }
+            }
+
+        }
+        .text{
+            .find{
+                width: 62%;
+                margin: 150px auto 0;
+                h1{
+                    text-transform: uppercase;
+                    color: white;
+                    font-size: 80px;
+                }
+            }
+        }
+    }
+}

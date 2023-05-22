@@ -1,0 +1,200 @@
+#body-items {
+    .featured {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .container-lg {
+            .row {
+                .col {
+                    position: relative;
+                    width: 100%;
+                    min-height: 1px;
+                    padding-right: 15px;
+                    padding-left: 15px;
+
+                    ::after {
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        transform: translateY(-30px);
+                        width: 3px;
+                        height: 25px;
+                        background: #fd784f;
+                        content: '';
+                    }
+
+                    .items-title {
+                        position: relative;
+
+                        span {
+                            color: silver;
+                        }
+                    }
+                }
+            }
+
+            .featured-items {
+                margin-top: 50px;
+
+                .featured-col {
+
+                    padding-left: 15px;
+                    padding-right: 15px;
+
+                    .card-items {
+                        position: relative;
+
+                        .featured-panel {
+                            position: absolute;
+                            left: 0;
+                            top: 21px;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            background: #fd784f;
+                            line-height: 41px;
+                            padding-left: 29px;
+                            padding-right: 26px;
+                        }
+
+                        img {
+                            width: 100%;
+                        }
+
+                        .items-body {
+                            padding-left: 26px;
+                            background-color: #edeff4;
+                            padding-bottom: 30px;
+                            padding: 1.25rem;
+
+                            .card-title {
+                                margin-top: 24px;
+
+                                a {
+                                    font-size: 22px;
+                                    text-decoration: none;
+                                    color: #0e1d41;
+                                }
+                            }
+
+                            .card-text {
+                                font-size: 14px;
+                                color: #838383;
+                                margin-top: 14px;
+                            }
+
+                            .rooms {
+                                margin-top: 30px;
+
+                                .room {
+                                    margin-right: 15px;
+                                    margin-bottom: 6px;
+                                    padding-left: 2px;
+
+                                    span {
+                                        font-size: 12px;
+                                    }
+
+                                    display: inline-block;
+
+                                    .room-content {
+                                        margin-top: 10px;
+
+                                        .room-img {
+                                            display: inline-block;
+                                            width: 30px;
+
+                                            img {
+                                                width: 20px;
+                                                height: 26px;
+                                            }
+                                        }
+
+                                        .room-num {
+                                            position: relative;
+                                            top: 4px;
+                                            font-size: 12px;
+                                            margin-left: 8px;
+                                        }
+                                    }
+                                }
+
+
+                            }
+
+                            .room-tags {
+                                margin-top: 25px;
+
+                                .room-tag {
+                                    display: inline-block;
+                                    font-size: 12px;
+                                    background-color: #fd784f;
+                                    margin-right: 7px;
+                                    margin-bottom: 9px;
+
+                                    a {
+                                        text-decoration: none;
+                                        padding: 1px 13px 2px;
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+#body-items {
+    .featured-box{
+        height: 86px;
+        margin-top: 7px;
+        padding-left: 30px;
+        background-color: #1e2c4e;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        .featured-box-content{
+            padding-left: 28px;
+            .price-title{
+                color: white;
+            }
+            .price{
+                color: white;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+#testimonials{
+    .clients{
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .clients-background{
+            width: 100%;
+            height: 100%;
+            background-image: url(https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+    }
+}
